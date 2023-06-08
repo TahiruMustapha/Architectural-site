@@ -35,7 +35,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 20rem;
+    margin-left: 15rem;
+    margin-right: 5rem;
 }
 .slide{
     transform: translateX(-50%);
@@ -48,8 +49,9 @@
 .slideContent{
     max-width: 1120px;
     width: 45%;
-    margin-left: 25rem; 
-    border-radius: 25px; 
+    margin-left: 15rem; 
+    /* border-radius: 25px;  */
+
 }
 .imgContainer{
     background-color: #fbb600;
@@ -112,11 +114,11 @@
 }
 .prev{
    top: 35%;
-   left: 42%;
+   left: 35%;
 }
 .next{
     top: 35%;
-    right: 24.5%;
+    right: 32%;
 }
 @media(max-width:1280px){
     .slideContainer{

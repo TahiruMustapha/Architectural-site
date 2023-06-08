@@ -1,5 +1,6 @@
 .client{
-    height: 50vh;
+    height: 54vh;
+    padding-bottom: 2rem;
 }
 .clientInfo{
     width: 85%;
@@ -8,9 +9,9 @@
 
 }
 .clientInfo h2{
-    width: 10%;
+    width: 15%;
     border-bottom: 4px solid #ffb600; 
-    margin-left: 8rem; 
+    margin-left: 3.5rem; 
     margin-top: 2rem; 
 }
 .clientInfo div{
