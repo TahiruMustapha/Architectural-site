@@ -114,11 +114,11 @@
 }
 .prev{
    top: 35%;
-   left: 41%;
+   left: 37%;
 }
 .next{
     top: 35%;
-    right: 28%;
+    right: 31%;
 }
 @media(max-width:1280px){
     .slideContainer{
