@@ -267,9 +267,16 @@
     .information ul li{
         margin-left: 1.3rem;
     }
+    .information ul li svg{
+        margin-left: 1.5rem;
+        margin-right: 1rem;
+    }
     .office{
         margin-left: 1.5rem;
         width: 100%;
+    }
+    .office ul li svg{
+        margin-left: 1.5rem;
     }
     .office h3{
         width: 85%;
