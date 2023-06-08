@@ -264,12 +264,16 @@
         width: 34%;
         margin-bottom: 0;
     }
+    .information ul li{
+        margin-left: 1.3rem;
+    }
     .office{
         margin-left: 1.5rem;
         width: 100%;
     }
     .office h3{
         width: 85%;
+        margin-left: 1.1rem;
     }
     .developer p{
       width: 95%;
