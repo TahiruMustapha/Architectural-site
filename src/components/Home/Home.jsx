@@ -14,11 +14,9 @@ import Client from '../Clients/Client'
 const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slideLenght = HomeData.length;
-     // slideLenght = 3
-     // setCurrentSlide = 0,1,2
      const autoScroll = true;
      let slideInterval;
-     const intervalTime = 5000;
+    //  const intervalTime = 5000;
 
      const nextSLide=() => { 
          setCurrentSlide(currentSlide === slideLenght-1 ? 0 : currentSlide + 1)
@@ -26,16 +24,21 @@ const Home = () => {
      const prevSLide=() => { 
          setCurrentSlide(currentSlide === 0 ? slideLenght - 1 : currentSlide - 1)
       }
-      function auto() {
-        slideInterval = setInterval(nextSLide , intervalTime)
-      }
+      // function auto() {
+      //   slideInterval = setInterval(nextSLide , intervalTime)
+      // }
+      
     useEffect(()=>{
-      if(autoScroll){
-            auto();
-      }
+     
+      // if(autoScroll){
+      //       auto();
+      // }
+      
       return ()=> clearInterval(slideInterval);
-    }, [currentSlide]);
+    }, [currentSlide,autoScroll,slideInterval]);
+    
     useEffect(()=>{
+      
       setCurrentSlide(0)
     }, []);
   return (
