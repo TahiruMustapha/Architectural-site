@@ -3,7 +3,6 @@ import { useState } from 'react';
 import "./Navbar.css"
 import { FaFacebook,FaInstagram,FaTwitter,FaHome,FaPhone, FaSearch, FaCartPlus, FaTimes,} from 'react-icons/fa';
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
-// import logo from "./images/logo.jpg"
 const Navbar = () => {
     const [overlay, setOverlay] = useState(false);
     const [toggleState,setToggleState] = useState(1);
