@@ -29,7 +29,8 @@ useEffect(()=>{
         auto();
   }
   return ()=> clearInterval(slideInterval);
-}, [testimonial]);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+}, [testimonial,autoScroll,slideInterval]);
 
 useEffect(()=>{
   setTestimonial(0)

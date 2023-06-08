@@ -16,7 +16,7 @@ const Home = () => {
     const slideLenght = HomeData.length;
      const autoScroll = true;
      let slideInterval;
-    //  const intervalTime = 5000;
+     const intervalTime = 5000;
 
      const nextSLide=() => { 
          setCurrentSlide(currentSlide === slideLenght-1 ? 0 : currentSlide + 1)
@@ -24,17 +24,18 @@ const Home = () => {
      const prevSLide=() => { 
          setCurrentSlide(currentSlide === 0 ? slideLenght - 1 : currentSlide - 1)
       }
-      // function auto() {
-      //   slideInterval = setInterval(nextSLide , intervalTime)
-      // }
+      const  auto=  ()=> { 
+        slideInterval = setInterval(nextSLide , intervalTime) 
+      };
       
     useEffect(()=>{
      
-      // if(autoScroll){
-      //       auto();
-      // }
-      
+      if(autoScroll){
+            auto();
+      }
+     
       return ()=> clearInterval(slideInterval);
+      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [currentSlide,autoScroll,slideInterval]);
     
     useEffect(()=>{
