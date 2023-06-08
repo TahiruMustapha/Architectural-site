@@ -1,0 +1,139 @@
+
+.ourService{
+    height: 70vh;
+    background-color: #f8f8f8;
+    width: 100%;
+    padding-top: 4rem;
+    margin-bottom: 0;
+}
+.ourService h2{
+    width: 10%;
+    margin: 0 auto;
+    border-bottom: 4px solid #ffb600;   
+}
+
+.service1 div h3{
+    font-weight: 700;
+}
+.service1 div svg{
+    background-color: #ffb600;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+}
+.service1 div span{
+    color: gray;
+}
+.service1 div{
+    display: flex;
+    align-items: center;
+    
+}
+.service2 div{
+    display: flex;
+    align-items: center;
+    
+}
+.service2 div h3{
+    font-weight: 700;
+}
+.service2 div svg{
+    background-color: #ffb600;
+    color: white;
+    width: 4rem;
+    height: 4rem;
+}
+.service2 div span{
+    color: gray;
+}
+.servicesBox{
+    width: 100%;
+    margin-top: 1.5rem;
+    height: 70%;
+    justify-content: space-evenly;
+    /* background-color: red; */
+}
+.ourService h2{
+    margin-top: .7rem;
+}
+@media (max-width:1280px){
+    .ourService{
+        height: fit-content;
+        padding-top: .5rem;
+        padding-bottom: 1rem;
+      }
+      .servicesBox{
+        height: fit-content;
+    }
+    .ourService h2{
+        width: 13%;
+    }
+}
+@media (max-width:1024px){
+    .ourService{
+        height: fit-content;
+        padding-top: .5rem;
+        padding-bottom: 1rem;
+        margin-top: 7rem;
+      }
+    .ourService h2{
+        width: 16%;
+    }
+}
+@media (max-width:1000px){
+      .ourService{
+        height: fit-content;
+        padding-top: .5rem;
+        padding-bottom: 1rem;
+      } 
+    .servicesBox{
+            /* background-color: red; */
+            height: fit-content;
+        }
+        .ourService h2{
+            width: 20%;
+        }
+}
+@media (max-width:700px){
+    .ourService{
+        /* background-color: red; */
+        width: 100%;
+        height: fit-content;
+        padding-top: .1rem;
+        margin-top: 32rem;
+    }
+   
+    .servicesBox{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 1rem;
+        /* background-color: turquoise; */
+    }
+    .ourService h2{
+        /* background-color: blue; */
+        width: 52%;
+        margin-top: .6rem;
+    }
+    .service1 div span{
+        font-size:x-small;
+    }
+    .service2 div span{
+        font-size:x-small;
+    }
+    .service1{
+        width: 100%;
+    
+    }
+    .service2{
+        width: 100%;
+    }
+    .service1 div{
+        
+        width: 100%;
+    }
+    .service2 div{
+        
+    }
+   
+    
+}

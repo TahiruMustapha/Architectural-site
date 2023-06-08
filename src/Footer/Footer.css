@@ -1,0 +1,279 @@
+.mainFooter{
+    height: 70vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #babfc5a8;
+    padding-top: 2rem;
+}
+.footerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #1b273d;
+    width: 100%;
+    overflow-x: hidden;
+    height: 90%;
+}
+.aboutUs,.information,.office{
+    flex: 1;
+}
+.aboutUs{
+    margin-left: 10rem;
+    margin-top: 1.5rem;   
+}
+.aboutUs h3{
+    border-bottom: 4px solid #ffb600;
+    padding-bottom: .4rem;
+    width: 19%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.mark{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    height: fit-content;
+    justify-content: center;
+}
+.aboutUs h2{
+    color: white;
+    font-weight: 700;
+}
+.aboutUs p{
+    color: gray;
+    width: 78%;
+    margin-top: 1rem;
+}
+.information{ 
+    
+}
+.information h3{
+    border-bottom: 4px solid #ffb600;
+    padding-bottom: .4rem;
+    width: 25.5%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-left: 3.7rem;
+}
+.office{
+    margin-top: 5.5rem;
+}
+.office h3{
+    border-bottom: 4px solid #ffb600;
+    padding-bottom: .4rem;
+    width: 68%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.socialLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 20%;
+    cursor: pointer;
+}
+.socialLinks svg{
+    color:#babfc5;
+    font-size: 1.3rem;
+}
+.information{
+    /* background-color: red; */
+}
+.information div{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.information ul li{
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    color: #babfc5;
+    line-height: 2.5rem;
+    width: 100%;
+}
+.information ul li svg{
+    margin-right: .8rem;
+    color: gray;
+}
+.office ul li{
+    display: flex;
+    align-items: center;
+    line-height: 2.5rem;
+    color: gray;
+}
+.office ul li svg{
+    margin-right: .8rem;
+    color: gray;
+    font-size: 1.3rem;
+}
+.developer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffb600;
+    height: 10%;
+}
+.developer p{
+    text-align: center;
+    color: #fff;
+    font-size: 1.1rem;
+   
+}
+@media (max-width:1280px){
+    .aboutUs{
+        margin-left: 2rem;
+     
+    }
+    .aboutUs h3{
+        width: 24%;
+    }
+    .mark{
+        margin-left: 2rem;
+    }
+    .socialLinks{
+        width: 70%;
+    }
+    .information{
+        margin-top: 3rem;
+
+    }
+    .information h3{
+        margin-bottom: 0;
+        width: 34%;
+    }
+    .information div{
+        margin-top: 5rem;
+    }
+}
+@media (max-width:1024px){
+      .aboutUs{
+      
+        margin-left: 1.5rem;
+      }
+      .mark{
+        margin-left: 2.5rem;
+      }
+      .aboutUs h3{
+        width: 30%;
+        
+      }
+      .information{
+    
+
+      }
+      .information div{
+        flex-direction: column;
+        height: fit-content;
+      }
+      .information h3{
+        margin-top: 3rem;
+        width: 40%;
+      }
+      .information ul{
+        
+      }
+      
+      .information ul li{
+        line-height: 2rem;
+        
+      }
+}
+@media (max-width:1000px){
+    .footerContent{
+        
+    }
+    .aboutUs{
+        width: 100%;
+        margin-left: 1rem;
+    }
+    .aboutUs h3{
+        width: 40%;
+    }
+    .socialLinks{
+        width: 70%;
+    }
+    .mark{
+        margin-left: 3rem;
+    }
+    .information h3{
+        margin-left: 0rem;
+    }
+    .information ul li{
+        line-height:2rem;
+    }
+    .information ul{
+        width: 100%;
+    }
+    .information div{
+        flex-direction: column;
+    }
+    .information ul li svg{
+        margin-right: .2rem;
+    }
+    .office{
+        margin-right: 1rem;
+    }
+    .office h3{
+        width: 100%;
+    }
+}
+@media (max-width:700px){
+    .mainFooter{
+        height: fit-content;
+        overflow-x: hidden;
+    }
+    .footerContent{
+        flex-direction: column;
+        justify-content: left;
+        height: fit-content;
+        overflow-x: hidden;
+    }
+    .aboutUs{
+        margin-left: 1.5rem;
+        margin-top: 1rem;   
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .socialLinks{
+        width: 60%;
+        margin-bottom: 1.5rem;
+    }
+    .aboutUs h3{
+        width: 25%;
+        margin-bottom: 1.5rem;
+    }
+    .mark{
+        margin-top: 0rem;
+        margin-left: 2rem;
+    }
+    .information{
+        margin-top: 2rem;
+        margin-left: 0rem;
+        width: 100%;
+    }
+    .information h3{
+        margin-left: 1rem;
+        width: 34%;
+        margin-bottom: 0;
+    }
+    .office{
+        margin-left: 1.5rem;
+        width: 100%;
+    }
+    .office h3{
+        width: 85%;
+    }
+    .developer p{
+      width: 95%;
+      margin: 0 auto;
+      padding: .7rem;
+    }
+}

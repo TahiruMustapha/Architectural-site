@@ -1,0 +1,11 @@
+.app {
+  width: 100%;
+
+}/*# sourceMappingURL=app.css.map */
+
+@media (max-width:450px){
+  .app{
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
