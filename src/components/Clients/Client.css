@@ -1,5 +1,5 @@
 .client{
-    height: 59vh;
+    height: 65vh;
     padding-bottom: 2rem;
 }
 .clientInfo{
@@ -9,7 +9,7 @@
 
 }
 .clientInfo h2{
-    width: 14%;
+    width: 11%;
     border-bottom: 4px solid #ffb600; 
     margin-left: 3.5rem; 
     margin-top: 2rem; 
