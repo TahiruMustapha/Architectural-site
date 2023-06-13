@@ -1,0 +1,332 @@
+.plan{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 3rem;
+}
+.planBg{
+    width: 100%;
+    background:linear-gradient(rgba(128, 128, 128, 0.623),rgba(128, 128, 128, 0.623)), url('./images/img11.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.planBg h1{
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .4rem;
+}
+.planBg h1 span{
+    color: #fbb600;
+}
+.planBg div div{
+    background-color: #fff;
+    padding: .3rem  1.2rem;
+    margin-top: 1rem;
+
+}
+.planBg div div span{
+    display:flex;
+    align-items: center;
+}
+.planBg div div span a{
+    margin: 0.5rem;
+    font-weight: 500;
+}
+.planBg div div span svg{
+    margin-right: 0.4rem;
+    color: gray;
+}
+.planInfo{
+    display: flex;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.planInfoSearch{
+    flex: 1;
+    margin-top: -26rem;
+    margin-left: 6rem;
+}
+.planInfoSearch input{
+    background-color: rgba(128, 128, 128, 0.137);
+    padding: 9px 5px;
+    margin-top: 1rem;
+    margin-bottom: .7rem;
+    border: none;
+    outline: none;
+}
+.planInfoSearch input::placeholder{
+    font-style: italic;
+    color: gray;
+}
+.planInfoSearch button{
+    background-color: #000;
+    color: #fff;
+    padding: 9px 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.inputbox{
+    border-bottom: 4px solid #fbb600;
+    width: 3.6rem;
+    font-weight: 600;
+}
+.categoriesInfo div p{
+   line-height: 2.5rem;
+}
+.categoriesInfo div p a span{
+    color: rgba(128, 128, 128, 0.555);
+}
+.categoriesInfo h3{
+    border-bottom: 4px solid #fbb600;
+    width: 5.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.topRated div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin: 2rem 0 2rem 0;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.315);
+    padding-bottom: 1.5rem;
+}
+.topRated div img{
+    width: 7rem;
+    height: 5rem;
+    object-fit: cover;
+}
+.topRated span{
+    font-weight: 600;
+}
+.topRated span strike{
+    background-color: #fbb80044;
+    font-weight: normal;
+}
+.topRated h3{
+    border-bottom: 4px solid #fbb600;
+    width: 5.5rem; 
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.planInfoContent{
+    flex: 4;
+    height: 90%;
+    width: 50%;
+    margin-top: 6rem;
+}
+.sort{
+    display: flex;
+    width: 85%;
+    align-items: center;
+    justify-content: space-between;
+    color: gray;
+    margin-bottom: 0rem;
+}
+.sort p{
+    margin-left: 2.8rem;
+    margin-bottom: -2rem;
+}
+
+.sort select{
+    border: 2px solid #fbb600;
+    outline: none;
+    padding: 7px 11px;
+    font-style: italic;
+    background-color: rgba(128, 128, 128, 0.068);
+    margin-bottom: -.2rem;
+    margin-right: -3.5rem;
+}
+.sort select::placeholder{
+    font-style: italic;
+}
+.contentGallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 1rem;
+    margin-top: 0rem;
+  
+}
+.imgGallery{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.imgGallery img{
+    width: 17rem;
+    height: 17rem;
+    margin: 1.5rem;
+    object-fit: cover;
+}
+.imgGallery p{
+   font-weight: 700;
+}
+.prevPrice{
+    text-decoration: line-through;
+    background-color: #fbb80034;
+    font-weight: 700;
+}
+.price{
+    color: #fbb600;
+    font-weight: 700;
+}
+.imgGallery button{
+    border: 1px solid rgba(128, 128, 128, 0.178);
+    padding: 4px 15px;
+    color: rgba(128, 128, 128, 0.397);
+    font-weight: 700;
+    letter-spacing: .2rem;
+   
+}
+.imgGallery button:hover{
+    background-color: #fbb600;
+    color: #fff;
+}
+@media (max-width:1280px){
+    .contentGallery{
+        width: 100%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: .5rem;
+
+       }
+       .planInfo{
+        width: 100%;
+       }
+       .planInfoSearch{
+           margin-left: 0rem;
+           padding-left: 1rem;
+          /* background-color: red; */
+           margin-top: -3.8rem;
+           width: 30rem;
+           padding-right: 1rem;
+       }
+       .topRated{
+        width: 15rem;
+        margin-left: .3rem;
+       }
+      
+       
+       .contentGallery img{
+             width: 12rem;
+             height: 12rem;
+       }
+       .sort select{
+        margin-right: -5rem;
+       }
+       .sort p{
+        margin-left: 1.7rem;
+       }
+       .planInfoContent{
+
+       }
+      
+}
+@media (max-width:1000px){
+       .planInfo{
+        flex-direction: column;
+        height: fit-content;
+        margin-top: 30rem;
+        width: 100%;
+       }
+       .planInfoSearch{
+        /* background-color: red; */
+        margin-left: .7rem;
+        margin-top: -28rem;
+       }
+       .topRated{
+        /* background-color: rebeccapurple; */
+        width: 100%;
+        margin-left: 0rem;
+       }
+       .planInfoSearch{
+        width: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+       }
+       /* .planInfo button{
+           margin-left: 40rem;
+           
+       } */
+       .sort{
+        width: 100%;
+        align-items: center;
+       }
+       .sort p{
+        display: inline-block;
+        margin-top: -2rem;
+        width: 40%;
+        margin-left: 3.5rem;
+        
+       }
+       .sort select{
+        margin-right: 3.5rem;
+       }
+       .planInfoContent{
+        width: 100%;
+       }
+       .contentGallery{
+        /* background-color: green; */
+        width: 90%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1rem;
+       }
+
+}
+@media (max-width:700px){
+    
+    .planInfo{
+        width: 100%;
+        flex-direction: column;
+        margin-top: 27rem;
+        height: fit-content;
+    }
+    .planInfoSearch{
+       
+        width: 100%;
+        margin-left: 0;
+        padding: 2rem 1rem 0 1rem;
+    }
+    .planInfoContent{
+        margin-top: 0rem;
+        /* background-color: green; */
+        width: 100%;
+    }
+   .contentGallery{
+    display: grid;
+    grid-template-columns: 1fr;
+   }
+    .sort{
+        flex-direction: column;
+        /* margin-top: 3rem; */
+    }
+    .sort p{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: -2rem;
+        width: 14rem;
+    }
+    .imgGallery img{
+        width: 80%;
+        height: 80%;
+        margin-left: 0;
+        
+    }
+    .planBg{
+        margin-top: -11rem;
+    }
+}

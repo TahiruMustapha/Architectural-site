@@ -2,7 +2,8 @@ import React from 'react'
 import { useState } from 'react';
 import "./Navbar.css"
 import { FaFacebook,FaInstagram,FaTwitter,FaHome,FaPhone, FaSearch, FaCartPlus, FaTimes,} from 'react-icons/fa';
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
+import {Link} from 'react-router-dom'
 const Navbar = () => {
     const [overlay, setOverlay] = useState(false);
     const [toggleState,setToggleState] = useState(1);
@@ -67,37 +68,37 @@ const Navbar = () => {
             <ul>
                 <li className={toggleState === 1 ? "tabs active-tab" : "tabs"}
                 onClick={()=>toggleTab(1)}
-                >Home</li>
+                > <Link to='/' >Home</Link></li>
                 <li className={toggleState === 2 ? "tabs active-tab" : "tabs"}
                 onClick={()=>toggleTab(2)}
-                >Plan For Sale</li>
+                > <Link to='/planForSale'> Plan For Sale</Link></li>
                 <li className={toggleState === 3 ? "tabs active-tab" : "tabs"}
                 onClick={()=>toggleTab(3)}
-                >What We Do</li>
+                > <Link to='/whatWeDo'>What We Do</Link></li>
                 <li className={toggleState === 4 ? "tabs active-tab" : "tabs"}
                 onClick={()=>toggleTab(4)}
-                >Who We Are</li>
+                > <Link to='/whoWeAre'>Who We Are</Link> </li>
                 <li className={toggleState === 5 ? "tabs active-tab" : "tabs"}
                 onClick={()=>toggleTab(5)}
-                >Projects</li>
+                > <Link to='/projects'>Projects</Link></li>
                 <li className={toggleState === 6 ? "tabs active-tab" : "tabs"}
                 onClick={()=>toggleTab(6)}
-                >Gallery</li>
+                > <Link to='/gallery'>Gallery</Link></li>
                 <li className={toggleState === 7 ? "tabs active-tab" : "tabs"}
                 onClick={()=>toggleTab(7)}
-                >Contact Us</li>
+                > <Link to='/contactUs'>Contact Us</Link></li>
             </ul>
         </div>
         <div className={!nav ? "mobileNav fixed left-0 top-8 h-full w-[90%] ease-in-out duration-500" : "fixed left-[-100%]"}>
                 
                  <ul className=' mobileNavList pt-5 uppercase bg-white'>
-                     <li className='p-4 border-b'>Plan For Sale</li>
-                     <li className='p-4 border-b'>Home</li>
-                     <li className='p-4 border-b'>What We Do</li>
-                     <li className='p-4 border-b'>Who We Are</li>
-                     <li className='p-4 border-b'>Projects</li>
-                     <li className='p-4 border-b'>Gallery</li>
-                     <li className='p-4'>Contact Us</li>
+                     <li className='p-4 border-b'> <Link to='/'>Home</Link></li>
+                     <li className='p-4 border-b'> <Link to='/planForSale'>Plan For Sale</Link></li>
+                     <li className='p-4 border-b'> <Link to='/whatWeDo'>What We Do</Link></li>
+                     <li className='p-4 border-b'> <Link to='/whoWeAre'>Who We Are</Link></li>
+                     <li className='p-4 border-b'> <Link to='/projects'>Projects</Link></li>
+                     <li className='p-4 border-b'> <Link to='/gallery'>Gallery</Link></li>
+                     <li className='p-4'> <Link to='/contactUs'>Contact Us</Link></li>
                  </ul>
 
             </div>

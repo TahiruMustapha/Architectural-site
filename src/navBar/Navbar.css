@@ -272,9 +272,7 @@
         position: absolute;
         top: 15px;
         left: 90%;
-        cursor: pointer;
-       
-        
+        cursor: pointer;   
     }
     .nextNav{
         width: 100%;

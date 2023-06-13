@@ -1,0 +1,157 @@
+
+.pagesNav{
+    width: 100%;
+    height: 18rem;
+}
+.pagesNav1{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    background-color: rgba(128, 128, 128, 0.363);
+    justify-content: space-around;
+}
+.pagesNav1 div{
+    display: flex;
+    align-items: center;
+}
+.pagesNav1 div:first-child p{
+    display: flex;
+    align-items: center;
+    margin: .5rem;
+    color: gray;
+}
+.pagesNav1 div:first-child p svg{
+    margin-right: .3rem;
+}
+.pagesNav1 div:nth-child(2) svg{
+    margin: .4rem;
+    color: gray;
+}
+.pagesNavItems{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagesNavItems ul{
+    display: flex;
+    margin: 1.5rem;
+}
+.pagesNavItems ul li{
+    margin: 1rem;
+    font-weight: 700;
+    transition: 2s all;
+}
+.active-tab{
+    position: relative;
+}
+.active-tab::before{
+        content: "";
+        display: block;
+        position: absolute;
+         border-bottom: 4px solid #fbb600;
+         left: 0;
+         top: 25px;
+         height: 2px;
+         width: 100%;  
+}
+.pagesNavItems ul li:hover{
+    color: #fbb600;
+    
+}
+
+.mainSet1{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.mainSet1 .set1 h2{
+    font-weight: 700;
+}
+.set1 span{
+    color: #fbb600;
+    font-weight: 700;
+}
+
+.mainSet1 .set4 svg{
+    font-size: 1.2rem;
+    color: gray;
+}
+.contactList{
+    display: flex;
+    font-weight: 700;
+    align-items: center;
+    width: 40%;
+    margin: 1rem auto 0 auto;
+    justify-content: right;
+    margin-top: 2rem;
+}
+.contactList p{
+    transition: 2s all;
+}
+.contactList p:hover{
+    border-bottom: 4px solid #fbb600;
+    color: #fbb600;
+}
+#search{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    bottom: 10px;
+    outline: none;
+    /* border: none; */
+    border-radius: 9px;
+    padding:12px 10px ;
+    background-color: rgba(128, 128, 128, 0.336);
+    border: 2px solid gray;
+}
+.mobileNav{
+    display: none;
+}
+.pageNavLogo{
+    display: none;
+}
+.menu2{
+    color: black;
+    font-weight: 800;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 55px;
+    left: 93%;
+    cursor: pointer;   
+}
+@media (max-width:700px){
+      .pagesNav2{
+        display: none;
+      }
+      .pagesNav1{
+        width: 100%;
+        overflow-x: hidden;
+        text-align: left;
+      }
+      .pagesNav1 div:first-child{
+        display: none;
+      }
+      .pagesNav1 div:nth-child(2){
+        margin-left: -12rem;
+      }
+      .pagesNav{
+        width: 100%;
+        overflow-x: hidden;
+      }
+      .mobileNav{
+        display: flex;
+        overflow-x: hidden;
+      }
+      .mobileNav ul li{
+        width: 100%;
+      }
+      .pageNavLogo{
+        display: flex;
+        margin: 1rem 0 0 1rem;
+      }
+   
+}

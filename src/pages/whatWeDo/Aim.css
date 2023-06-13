@@ -1,0 +1,184 @@
+.planBg{
+    width: 100%;
+    background:linear-gradient(rgba(128, 128, 128, 0.623),rgba(128, 128, 128, 0.623)), url('.././plan/images/img15.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aimInfo h2{
+    border-bottom: 4px solid #fbb600; 
+     width: 38%;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    /* margin-bottom: 1rem; */
+    /* letter-spacing: .3rem; */
+}
+.aimInfo{
+    width: 100%;
+    height: 90vh;
+    margin-bottom: 2rem;
+}
+    
+
+.aimleft{
+    display: grid;
+    height: 85%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 0rem;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    flex-wrap: wrap;
+}
+.aimleft div h3:first-child{
+   
+    margin-top: 4.3rem;
+}
+.aimleft div h3{
+    margin-top: 2rem;
+   
+}
+.aimleft h3{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.aimleft p{
+    color: rgba(128, 128, 128, 0.767);
+}
+.aimContact{
+    background-color: #fbb600;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 0 1rem 0 1rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.aimContact p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.aimContact button{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-right: 3rem;
+    border-bottom: 4px solid white;
+    transition: 2s all;
+}
+.aimContact button svg{
+    margin-left: .4rem;
+    font-size: 1.2rem;
+}
+.aimContact button:hover{
+    background-color: #fff;
+    color: #000;
+}
+@media (max-width:1280px){
+        .aimleft{
+            width: 70%;
+        }
+        .aimInfo h2{
+            width: 46%;
+        }
+        .aimContact{
+            width: 70%;
+        }
+        .aimContact button{
+            margin-right: .6rem;
+        }
+       
+}
+@media (max-width:1024px){
+    .aimInfo h2{
+        width: 56%;
+    }
+    .aimInfo{
+        height: fit-content;
+    }
+    .aimleft{
+        height: fit-content;
+    }
+    .aimContact p{
+        font-size: large;
+    }
+    .aimContact button{
+        margin-right: .6rem;
+    }
+}
+@media (max-width:1000px){
+    .aimInfo{
+        
+    }
+    .aimleft{
+    }
+    .aimInfo h2{
+        width: 70%;
+    }
+    .aimContact p{
+        font-size: large;
+    }
+    .aimContact{
+        width: 85%;
+    }
+    .aimContact button{
+        font-size: small;
+        
+        margin-left: .2rem;
+        margin-right: 0;
+
+    }
+}
+@media (max-width:700px){
+    .aimleft{
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .aimInfo{
+       
+        height: fit-content;
+        margin-bottom: 0rem;
+    }
+    .aimInfo h2{
+        width: 75%;
+    }
+    .aimContact{
+        height: fit-content;
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+    .aimContact button{
+        margin-top: 2rem;
+    }
+}
+@media (max-width:320px){
+    .aimInfo h2{
+        width: 85%;
+    }
+}
+@media (max-width:280px){
+    .aimInfo h2{
+        width: 98%;
+    }
+    .planBg h1{
+        font-size: x-large;
+        text-align: center;
+    }
+}
