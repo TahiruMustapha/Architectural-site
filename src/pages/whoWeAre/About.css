@@ -1,0 +1,401 @@
+
+.planBg{
+    width: 100%;
+    background:linear-gradient(rgba(128, 128, 128, 0.623),rgba(128, 128, 128, 0.623)), url('./images/img21.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutInfo{
+    display: flex;
+    align-items: center;
+    /* background-color: green; */
+    width: 75%;
+    margin: 0 auto;
+}
+.info1{
+    
+    flex: 1;
+    /* width: 50%; */
+}
+.info1 h3{
+    border-bottom: 4px solid #fbb600;
+    display:inline-block;
+    margin: 1.3rem 1rem 1.3rem 1rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    font-size: 1.2rem;
+}
+.info1 div ul li:not(.tagText){
+    display: flex;
+    align-items: center;
+    color: gray;
+    margin: 1rem;
+}
+.info1 div ul li svg{
+    font-size: 1.2rem;
+    margin-right: .9rem;
+}
+#brochers2 p{
+    background-color: white;
+    border:1px solid rgba(128, 128, 128, 0.192);
+    width: 65%;
+ }
+ #brochers2 p:hover{
+    border-color: #fbb600;
+    color: #fbb600;
+ }
+ #brochers2 p:hover > svg{
+    color: #fbb600;
+ }
+.info1 div p{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    background-color: rgba(128, 128, 128, 0.178);
+    width: 65%;
+    padding: 7px 0;
+    cursor: pointer;
+    transition: 2s all;
+}
+.info1 div p:hover{
+    background-color: #fbb600;
+    color: white;
+}
+.info1 div p:hover > svg{
+    color: white;
+}
+
+.info1 div p svg{
+    margin: 0.7rem;
+    color: rgba(128, 128, 128, 0.699);
+    transition: 2s all;
+}
+.tags{
+    width: 85%;
+}
+.tags ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.tagText{
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      margin: .7rem;
+     border:1px solid rgba(128, 128, 128, 0.192);
+     display: inline-block;
+     padding: 1px 4px;
+     color: #000;
+
+    
+}
+.tagText:hover{
+    background-color: #fbb600;
+    border-color: #fbb600;
+}
+#teamInfo{
+    background-color: rgba(128, 128, 128, 0.205);
+    padding: .9rem;
+    font-size: small;
+    margin-top: -.9rem;
+    width: 65%;
+    color: rgba(128, 128, 128, 0.753);
+}
+#teamInfo:hover{
+    background-color: #fbb600;
+    color: white;
+}
+.team p:first-child{
+   background-color: #fbb600;
+   color: white;
+   padding: .9rem;
+   width: 65%;
+   font-size: small;
+}
+
+.team p{
+    font-weight: 700;
+    padding: .9rem;
+    
+}
+.info2{
+    
+    width: 100%;
+    flex: 2.3;
+    margin-left: 2rem;
+    margin-top: 6rem;
+    padding: .8rem;
+}
+.info2Main{
+    width: 80%;
+}
+.aboutInfo2{
+    margin-left: 21.5rem;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.116);
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutInfo2 p{
+     font-size: 1.3rem;
+    
+}
+.aboutInfo2 p:nth-child(1){
+    /* background-color: red; */
+    width: 24rem;
+    font-size: 1.4rem;
+}
+.aboutInfo2 p:nth-child(2){
+    font-size: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 25rem;
+
+}
+.aboutInfo2 p:nth-child(3){
+     color: #444;
+     font-size: 1rem;
+     margin-left: 25rem;
+}
+.aboutInfo2 p svg{
+    color: #fbb600;
+    font-size: 2rem;
+}
+
+.info2Main div{
+    display: flex;
+    flex-direction: column;
+     width: 100%; 
+}
+/* .mapContent{
+     
+} */
+.slide{
+  
+    transform: translateX(-50%);
+    opacity: 1;
+}
+.currrent{
+    opacity: 1;
+   
+    transform: translateX(0);
+}
+
+.aboutHeaders{
+    border-bottom: 4px solid #fbb600;
+    display:inline-block;
+    margin: 1.3rem 1rem 1.3rem 0rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    font-size: 1.2rem;
+}
+.aboutSec p{
+    color: gray;
+    width: 67%;
+    line-height: 2rem;
+}
+.aboutMission__content{
+    display: flex;
+    width:100%;   
+}
+.aboutMission__content div{
+    text-align: center;
+}
+.aboutMission__content div button{
+    font-weight: 700;
+    border-bottom: 4px solid #fbb600;
+    margin: 0.7rem;
+    
+}
+.aboutMission__content div p{
+    color: gray;
+}
+.safety{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   
+    margin-top: 2rem;
+    width: 100%;
+}
+.safety div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: .9rem;
+    width: 16rem;
+   
+}
+
+.safety div p{
+    color: gray;
+}
+.safety img{
+    width: 100%;
+    height: 100%;
+}
+.safety button{
+    font-weight: 700;
+    border-bottom: 4px solid #fbb600;
+    margin: 0.7rem;
+}
+.about__contact{
+    width: 75%;
+    margin-bottom: 5rem;
+}
+@media (max-width:1280px){
+    .info1{
+        /* background-color: green; */
+        /* width: 20%; */
+        margin-top: 0rem;
+    }
+    .safety div{
+        width: 14rem;
+    }
+    .aboutInfo{
+        width: 90%;
+    }
+    .about__contact{
+        width: 90%;
+        
+    }
+}
+
+@media (max-width:1024px){
+    .aboutInfo{
+        
+        width: 100%;
+    }
+    .info1{
+        
+        width: 20%;
+        margin-top: -4rem;
+    }
+    .info2{
+        margin-left: 0;
+        width: 40%;
+    }
+    #mail{ 
+     font-size: x-small;
+    }
+    .info2Main{
+        width: 70%;
+    }
+    .aboutInfo2{
+        margin-left: 12rem;
+        width: 50%;
+        height: 10rem; 
+    }
+   .aboutInfo2 p:nth-child(1){
+       
+       width: 16rem;
+       font-size: .9rem;
+       
+   }
+   .aboutInfo2 p:nth-child(2){
+       font-size: .8rem;
+       margin-top: 1rem;
+       margin-left: 10rem;
+       
+   
+   }
+   .aboutInfo2 p:nth-child(3){
+     
+        font-size: .8rem;
+        margin-left: 10rem;
+   }
+   .aboutInfo2 p svg{
+       
+       font-size: .9rem;
+   }
+   .safety div{
+    width: 9rem;
+    
+   }
+   .aboutMission__content div{
+    width: 100%;
+    padding: .7rem;
+}
+    .about__contact{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+}
+
+
+
+
+
+@media (max-width:700px){
+    .aboutInfo{
+        flex-direction: column;
+        width: 100%;
+    }
+    .info1{
+        margin-top: 0rem;
+        width: 100%;
+    }
+    .info2{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+        
+    }
+    .about__contact{
+        margin: 0;
+    }
+    .info2Main{
+        width: 95%;
+    }
+    .aboutInfo2{
+        margin-left: 10rem;
+        width: 90%;
+        height: 10rem;
+       
+    }
+    .aboutInfo2 p{
+        font-size: .7rem;
+       
+   }
+   .aboutInfo2 p:nth-child(1){
+       
+       width: 16rem;
+       font-size: .7rem;
+       
+   }
+   .aboutInfo2 p:nth-child(2){
+       font-size: .6rem;
+       margin-top: 1rem;
+       margin-left: 10rem;
+       
+   
+   }
+   .aboutInfo2 p:nth-child(3){
+     
+        font-size: .6rem;
+        margin-left: 10rem;
+   }
+   .aboutInfo2 p svg{
+       
+       font-size: 1rem;
+   }
+   .aboutMission__content{
+    flex-direction: column;  
+}
+.aboutMission__content div{
+    text-align: left;
+    
+    width: 100%;
+}
+   
+}
