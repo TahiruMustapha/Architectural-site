@@ -1,0 +1,38 @@
+
+
+.planBg{
+    width: 100%;
+    background:linear-gradient(rgba(128, 128, 128, 0.623),rgba(128, 128, 128, 0.623)), url('./images/pro4.jpeg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    height: 17rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainProjects{
+    width: 100%;
+}
+.mainProjects div{
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+.mainProjects div div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.mainProjects div div img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover;
+}
+.mainProjects div div p{
+    font-weight: 700;
+    margin-top: 1rem;
+}
