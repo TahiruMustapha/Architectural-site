@@ -45,43 +45,43 @@ const Project = () => {
           <p>Project2</p>
         </div>
         <div className="project3">
-        <Link>
+        <Link to='projects3'>
             <img src={pro19} alt="img" />
           </Link>
           <p>Project3</p>
         </div>
         <div className="project4">
-        <Link>
+        <Link to='projects4'>
             <img src={pro22} alt="img" />
           </Link>
           <p>Project4</p>
         </div>
         <div className="project5">
-        <Link>
+        <Link to='projects5'>
             <img src={pro23} alt="img" />
           </Link>
           <p>Project5</p>
         </div>
         <div className="project6">
-        <Link>
+        <Link to='projects6'>
             <img src={pro16} alt="img" />
           </Link>
           <p>Project6</p>
         </div>
         <div className="project7">
-        <Link>
+        <Link to='projects7'>
             <img src={pro18} alt="img" />
           </Link>
           <p>Project7</p>
         </div>
         <div className="project8">
-        <Link>
+        <Link to='projects8'>
             <img src={pro24} alt="img" />
           </Link>
           <p>Project8</p>
         </div>
         <div className="project9">
-        <Link>
+        <Link to='projects9'>
             <img src={pro25} alt="img" />
           </Link>
           <p>Project9</p>

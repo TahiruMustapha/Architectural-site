@@ -27,7 +27,7 @@ const Project1 = () => {
           <div className='ongoining'>
             <span >
               You are here: <Link to="/">Home</Link>{" "}
-              <MdOutlineKeyboardDoubleArrowRight /> Projects <MdOutlineKeyboardDoubleArrowRight /> Ongoing <MdOutlineKeyboardDoubleArrowRight /> Project 1
+              <MdOutlineKeyboardDoubleArrowRight /><Link to="/projects">Projects</Link><MdOutlineKeyboardDoubleArrowRight /> Ongoing <MdOutlineKeyboardDoubleArrowRight /> Project 1
             </span>
           </div>
         </div>

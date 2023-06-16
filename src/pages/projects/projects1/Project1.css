@@ -31,6 +31,7 @@
 .projectsContent div img{
     width: 28rem;
     height: 29rem;
+    object-fit: cover;
 }
 .detailsInfo p:not(.cost){
     color: rgba(128, 128, 128, 0.719);
@@ -175,7 +176,6 @@
         align-items: center;
         flex-wrap: nowrap;
         width: 100%;
-        background-color: red;
     }
     .quoteSwiper{
         margin-left: 2rem;
