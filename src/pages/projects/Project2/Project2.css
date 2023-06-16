@@ -1,0 +1,228 @@
+
+.projectsContent{
+    /* background-color: orangered; */
+    padding: 2rem;
+    width: 80%;
+    margin: 0 auto;
+}
+.infoInfo{
+    display: flex;  
+      
+}
+.projectsContent__details{
+    background-color: rgba(128, 128, 128, 0.148);
+    margin-left: 2rem;
+    width: 40%;
+    height: 70%;
+    padding: 2rem;
+
+}
+.projectsContent__details h3{
+    border-bottom: 4px solid #fbb600;
+    display: inline-block;
+    margin-bottom: .7rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+}
+.projectsContent div img{
+    width: 28rem;
+    height: 29rem;
+}
+.detailsInfo p:not(.cost){
+    color: rgba(128, 128, 128, 0.719);
+}
+.detailsInfo p{
+   
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.5rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.159);
+  
+
+}
+.cost{
+    margin-right: 10rem;
+    color: black;  
+}
+.project__details{
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.project__details h3{
+    border-bottom: 4px solid #fbb600;
+    display: inline-block;
+    margin-bottom: .7rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+}
+.project__details ul li{
+    display: flex;
+    align-items: center;
+    line-height: 2.5rem;
+    color: gray;
+}
+.project__details ul li svg{
+    margin-right: .9rem;
+    font-size: 1rem;
+}
+.client__says{
+   display: flex;
+   padding: 2rem;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 3rem;
+}
+.client__says h3{
+    border-bottom: 4px solid #fbb600;
+    display: inline-block;
+    margin-bottom: .7rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+}
+
+.swiper__img{
+    width: 30%;
+    height: 30%;
+    
+}
+.swiper__img img{
+     width: 100%;
+     object-fit: cover;    
+}
+.quote__box p:first-child{
+    background-color: rgba(128, 128, 128, 0.193);
+    width: 58%;
+    margin-left: 0rem;
+    line-height: 2rem;
+    font-style: italic;
+    color: gray;
+    font-size: 1.2rem;
+    padding: 1.3rem;
+    margin-top: 1.5rem;
+}
+.avata{
+    display: flex;
+    align-items: center;
+    margin-top: .8rem;
+    margin-left: 2rem;
+}
+.quoteSwiper{
+    margin-left: 2rem;
+    width: 55rem;
+    height: 40%;
+}
+.quote__box{
+    width: 100%;
+}
+@media (max-width:700px){
+    .projectsContent{
+        /* background-color: orchid; */
+        width: 100%;
+        height: fit-content;
+    }
+    .infoInfo{
+       flex-direction: column;  
+          /* background-color: red; */
+          width: 100%;
+    }
+    .client__says{
+        flex-direction: column;
+        /* background-color: blue; */
+        height: fit-content;
+        width: 100%;
+    }
+    .client__says h3{
+        margin-top: 2rem;
+        margin-bottom: 0rem;
+    }
+    .swiper__img{
+        width: 95%;
+        height: 30%;
+        /* background-color: red; */
+        margin-left: 0rem;
+        
+    }
+    .swiper__img img{
+         width: 100%;
+         object-fit: cover;
+         
+    }
+    .avata img{
+       
+      font-size: .8rem;
+        margin-top: .8rem;
+        margin-left: 2rem;
+    }
+    .projectsbg{
+    flex-direction: column;
+    padding: 0;
+   
+      
+    }
+    .ongoining{
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        background-color: red;
+    }
+    .quoteSwiper{
+        margin-left: 2rem;
+        width: 23rem;
+        height: 10%;
+        margin-left: -1.8rem;
+        margin-top: 2rem;
+        font-size: .8rem;
+        padding: .1rem;
+    }
+    .quote__box{
+        width: 40rem;
+    }
+    .projectsContent{
+        padding: 0;
+    }
+    .infoInfo{
+
+       width: 90%;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 1rem;
+          
+    }
+    .projectsContent__details{
+        background-color: rgba(128, 128, 128, 0.148);
+        margin-left: 0rem;
+        width: 100%;
+        height: 70%;
+        padding: 1rem;
+    
+    }
+    .cost{
+        margin-left: 5rem;
+        font-size: small;
+        font-weight: 600;
+    }
+    .detailsInfo{
+        
+        padding: 0;
+        width: 100%;
+    }
+    .detailsInfo p{
+          
+        font-size: small;
+        line-height: 2rem;
+        
+        width: 100%;
+        
+      
+      }
+}
+

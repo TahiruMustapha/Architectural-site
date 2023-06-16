@@ -33,13 +33,13 @@ const Project = () => {
       <div className="mainProjects">
         <div className='flex w-[70%] flex-wrap'>
         <div className="project1">   
-          <Link>
+          <Link to='projects1'>
             <img src={pro10} alt="img" />
           </Link>
           <p>Project1</p>
         </div>
         <div className="project2">
-        <Link>
+        <Link to='projects2'>
             <img src={pro7} alt="img" />
           </Link>
           <p>Project2</p>

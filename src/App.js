@@ -8,6 +8,8 @@ import About from './pages/whoWeAre/About';
 import Project from './pages/projects/Project'
 import Gallery from './pages/gallery/Gallery'
 import Contact from './pages/contactUs/Contact'
+import Project1 from './pages/projects/projects1/Project1';
+import Project2 from './pages/projects/Project2/Project2';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Route path='/whatWeDo' exact element ={ <Aim/>}/>
       <Route path='/whoWeAre' exact element ={ <About/>}/>
       <Route path='/projects' exact element ={ <Project/>}/>
+      <Route path='projects/projects1'  element ={ <Project1/>}/>
+      <Route path='projects/projects2'  element ={ <Project1/>}/>
       <Route path='/gallery' exact element ={ <Gallery/>}/>
       <Route path='/contactUs' exact element ={ <Contact/>}/>
      </Routes>
