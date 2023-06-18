@@ -190,8 +190,7 @@
     }
     .client__says{
         flex-direction: column;
-        height: fit-content;
-        width: 100%;
+        width: 100%;  
     }
     .client__says h3{
         margin-top: 2rem;
@@ -226,14 +225,29 @@
         flex-wrap: nowrap;
         width: 100%;
     }
+    .quote__swipe{
+        height: 150%;
+        padding: 1rem;
+    }
+    .avata{
+        display: flex;
+        align-items: center;
+        margin-top: .8rem;
+        margin-left: 2rem;
+    }
     .quoteSwiper{
         margin-left: 2rem;
-        width: 23rem;
-        height: 10%;
-        margin-left: -1.8rem;
-        margin-top: 2rem;
-        font-size: .8rem;
-        padding: .1rem;
+        width: 55rem;
+        height: fit-content;
+        
+    }
+    .quote__box{
+        margin-top: 0;
+        height: fit-content;
+    }
+
+    .quoteSwiper2{
+        height: fit-content;
     }
     .quote__box{
         width: 40rem;
