@@ -34,7 +34,7 @@ const Project1 = () => {
       </div> 
         <div className="projectsContent">
               <div className='infoInfo'>
-                <img src={pro10} alt="img" />
+                <img src={pro10} alt="img" className='infoInfo__img' />
                 <div className="projectsContent__details">
                     <h3>PROJECT DETAILS</h3>
                     <div className='detailsInfo'>
@@ -87,7 +87,7 @@ const Project1 = () => {
             </Swiper>
             </div>
             
-               <div>
+               <div className='quote__swipe'>
                 <h3>OUR CLIENT SAYS</h3>
                   <div className="quoteSwiper">
                     <Swiper

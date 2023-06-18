@@ -126,20 +126,70 @@
 .quote__box{
     width: 100%;
 }
+@media (max-width:1280px){
+       .quote__swipe{
+        overflow-x: hidden;
+       }
+}
+@media (max-width:1000px){
+    .projectsContent{
+        width: 90%;
+    }
+    .cost{
+        margin-right: 0;
+    }
+    .infoInfo{
+        width: 100%;  
+    }
+    .projectsContent__details{  
+        width: 100%;
+    }
+    .client__says{
+        
+        width: 100%;
+        flex-direction: column;
+    }
+    .swiper__img{
+        width: 100%;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        
+    }
+    .swiper__img img{
+         min-width: 100%;    
+    }
+    .quote__swipe{
+    
+     overflow-x: hidden;
+    }
+    .mySwiper{
+       
+        overflow-x: hidden;
+       
+    }
+    .quoteSwiper{
+      
+        width: 80%;
+        overflow-x: hidden;
+    }
+    .quote__box{
+    
+        width: 40%;
+        height: 15rem;
+       
+    }
+}
 @media (max-width:700px){
     .projectsContent{
-        /* background-color: orchid; */
         width: 100%;
         height: fit-content;
     }
     .infoInfo{
        flex-direction: column;  
-          /* background-color: red; */
           width: 100%;
     }
     .client__says{
         flex-direction: column;
-        /* background-color: blue; */
         height: fit-content;
         width: 100%;
     }
@@ -150,7 +200,6 @@
     .swiper__img{
         width: 95%;
         height: 30%;
-        /* background-color: red; */
         margin-left: 0rem;
         
     }
