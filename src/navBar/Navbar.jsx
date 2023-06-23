@@ -59,14 +59,22 @@ const Navbar = () => {
                     <p><FaCartPlus/></p>
                 </div>
             </div>
+            <div className="set1 pageNavLogo mobile__logo " >
+                <div>
+                    <p><FaHome/></p>
+                </div>
+                <h2>Masha Allah <br /> <span>Construction</span></h2>
+            </div>
             <p onClick={handleNav} className='menu text-white block md:hidden'>
             {!nav ? <AiOutlineClose/>: < AiOutlineMenu /> }
+           
+            
             </p>
             
         </div>
         <div className="navItems hidden md:block">
             <ul>
-                <li className={toggleState === 1 ? "tabs active-tab" : "tabs"}
+                <li  className={toggleState === 1 ? "tabs active-tab" : "tabs"}
                 onClick={()=>toggleTab(1)}
                 > <Link to='/' >Home</Link></li>
                 <li className={toggleState === 2 ? "tabs active-tab" : "tabs"}
@@ -90,15 +98,15 @@ const Navbar = () => {
             </ul>
         </div>
         <div className={!nav ? "mobileNav fixed left-0 top-8 h-full w-[90%] ease-in-out duration-500" : "fixed left-[-100%]"}>
-                
-                 <ul className=' mobileNavList pt-5 uppercase bg-white'>
-                     <li className='p-4 border-b'> <Link to='/'>Home</Link></li>
-                     <li className='p-4 border-b'> <Link to='/planForSale'>Plan For Sale</Link></li>
-                     <li className='p-4 border-b'> <Link to='/whatWeDo'>What We Do</Link></li>
-                     <li className='p-4 border-b'> <Link to='/whoWeAre'>Who We Are</Link></li>
-                     <li className='p-4 border-b'> <Link to='/projects'>Projects</Link></li>
-                     <li className='p-4 border-b'> <Link to='/gallery'>Gallery</Link></li>
-                     <li className='p-4'> <Link to='/contactUs'>Contact Us</Link></li>
+       
+                 <ul className=' mobileNavList pt-5 uppercase bg-white'  >
+                     <li className='p-4 border-b' onClick={handleNav} > <Link to='/' >Home</Link></li>
+                     <li className='p-4 border-b' > <Link to='/planForSale' >Plan For Sale</Link></li>
+                     <li className='p-4 border-b' > <Link to='/whatWeDo' >What We Do</Link></li>
+                     <li className='p-4 border-b' > <Link to='/whoWeAre' >Who We Are</Link></li>
+                     <li className='p-4 border-b' > <Link to='/projects' >Projects</Link></li>
+                     <li className='p-4 border-b' > <Link to='/gallery' >Gallery</Link></li>
+                     <li className='p-4' > <Link to='/contactUs' >Contact Us</Link></li>
                  </ul>
 
             </div>

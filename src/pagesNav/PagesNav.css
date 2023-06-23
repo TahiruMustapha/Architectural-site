@@ -2,6 +2,9 @@
 .pagesNav{
     width: 100%;
     height: 18rem;
+    /* position: fixed; */
+    /* z-index: 9999;
+    background-color: red; */
 }
 .pagesNav1{
     display: flex;

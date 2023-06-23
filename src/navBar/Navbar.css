@@ -8,6 +8,7 @@
 }
 .app__navbar{
     position: relative;
+    width: 100%;
 }
 .topNav{
     background-color: #1b273d;
@@ -110,9 +111,9 @@
     color: #fff;
     margin-right: .7rem;
     cursor: pointer;
-    
- 
-  
+}
+.mobile__logo{
+    display: none;
 }
 .set4 #search{
     position: absolute;
@@ -266,6 +267,7 @@
         height: 100vh;
     }
      .menu{
+        
         color: #fff;
         font-weight: 800;
         font-size: 1.3rem;
@@ -273,6 +275,12 @@
         top: 15px;
         left: 90%;
         cursor: pointer;   
+    }
+    .mobile__logo{
+        display: flex;
+        position: absolute;
+        left: 1px;
+        top: 1px;
     }
     .nextNav{
         width: 100%;

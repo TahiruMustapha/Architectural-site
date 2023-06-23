@@ -58,7 +58,7 @@ const Home = () => {
                         {index === currentSlide && (
                           <>
                             <img className='h-full  object-cover w-[100%]' src={slide.image} alt="slide" />
-                            <div className=" animate__animated animate__backInDown animate__delay-3s content absolute top-[15rem] left-20  p-12 bg-[rgba(0,0,0,.3)] shadow-xl">
+                            <div className=" animate__animated animate__backInDown animate__delay-3s content absolute top-[5rem] left-20  p-12 bg-[rgba(0,0,0,.3)] shadow-xl">
                                 <h2 className='text-white mb-4' >{slide.heading}</h2>
                                 <p className='text-white mb-4'>{slide.desc}</p>
                                 <hr className='bg-[#ffb600] h-[2px] w-[50%] mb-4' />

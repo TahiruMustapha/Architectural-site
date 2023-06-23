@@ -44,16 +44,16 @@ const handleNav = ()=>{
                 </div>
                 <h2>Masha Allah <br /> <span>Construction</span></h2>
             </div>
-         <div className={!nav ? "mobileNav fixed left-0 top-8 h-full w-[90%] ease-in-out duration-500" : "fixed left-[-100%]"}>
+         <div className={!nav ? "mobileNav fixed left-0 top-10 h-full w-[90%] ease-in-out duration-500" : "fixed left-[-100%]"}>
                 
                 <ul className=' mobileNavList pt-5 uppercase bg-white'>
-                <li className='p-4 border-b'> <Link to='/'>Home</Link></li>
-                     <li className='p-4 border-b'> <Link to='/planForSale'>Plan For Sale</Link></li>
-                     <li className='p-4 border-b'> <Link to='/whatWeDo'>What We Do</Link></li>
-                     <li className='p-4 border-b'> <Link to='/whoWeAre'>Who We Are</Link></li>
-                     <li className='p-4 border-b'> <Link to='/projects'>Projects</Link></li>
-                     <li className='p-4 border-b'> <Link to='/gallery'>Gallery</Link></li>
-                     <li className='p-4'> <Link to='/contactUs'>Contact Us</Link></li>
+                <li className='p-4 border-b' onClick={handleNav}> <Link to='/'>Home</Link></li>
+                     <li className='p-4 border-b' onClick={handleNav}> <Link to='/planForSale'>Plan For Sale</Link></li>
+                     <li className='p-4 border-b' onClick={handleNav}> <Link to='/whatWeDo'>What We Do</Link></li>
+                     <li className='p-4 border-b' onClick={handleNav}> <Link to='/whoWeAre'>Who We Are</Link></li>
+                     <li className='p-4 border-b' onClick={handleNav}> <Link to='/projects'>Projects</Link></li>
+                     <li className='p-4 border-b' onClick={handleNav}> <Link to='/gallery'>Gallery</Link></li>
+                     <li className='p-4'> <Link to='/contactUs' onClick={handleNav}>Contact Us</Link></li>
                 </ul>
 
            </div> 
