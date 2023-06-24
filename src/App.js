@@ -17,12 +17,17 @@ import Project6 from './pages/projects/Project6/Project6';
 import Project7 from './pages/projects/project7/Project7';
 import Project8 from './pages/projects/project8/Project8';
 import Project9 from './pages/projects/project9/Project9';
+import ScrollToTop from './components/scrollToTo/SrollToTop';
+import Chat from './components/whatApp/Chat';
+//import ScrollToTop from "react-scroll-to-top";
 
 function App() {
+  
   return (
       <BrowserRouter>
       
       <div className='app'> 
+      <ScrollToTop/>
      <Routes>
       <Route path='/' exact={true} element ={ <Home/>} />
       <Route path='/planForSale' exact element ={ <Plan/>}/>
@@ -41,9 +46,15 @@ function App() {
       <Route path='/gallery' exact element ={ <Gallery/>}/>
       <Route path='/contactUs' exact element ={ <Contact/>}/>
      </Routes>
+     <Chat/>
      <Footer/>
+
     </div>
+
+    
        </BrowserRouter>
+
+
     
   );
 }
