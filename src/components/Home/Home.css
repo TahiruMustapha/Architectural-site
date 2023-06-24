@@ -1,14 +1,22 @@
 .slide{
-    transform: translateX(-50%);
-    opacity: 1;
-    /* transition: all 0.5s ease; */
+ opacity: 1;
+    transform: translate(-70px, -20px);
+    /* top: 50%;
+    left: 100%; */
+    
 }
 
+.content__h3{
+    border-bottom: 4px solid white;
+    /* display: inline-block; */
+}
 .currrent{
     opacity: 1;
     transform: translateX(0);
 }
 .content{
+    display: flex;
+    flex-direction: column;
     width: 40%;
 }
 @media (max-width:700px){
