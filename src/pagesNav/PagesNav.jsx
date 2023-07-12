@@ -12,9 +12,9 @@ const toggleTab = (index)=>{
     setToggleState(index);
 }
 const [nav,setNav] = useState(false);
-const handleNav = ()=>{
-    setNav(!nav);
-}
+const handleNav = () => {
+    setNav(prev => !prev)
+  }
   return (
     <div className='pagesNav'>
     
@@ -44,7 +44,7 @@ const handleNav = ()=>{
                 </div>
                 <h2>Masha Allah <br /> <span>Construction</span></h2>
             </div>
-         <div className={!nav ? "mobileNav fixed left-0 top-10 h-full w-[90%] ease-in-out duration-500" : "fixed left-[-100%]"}>
+         <div className={nav ? "mobileNav fixed left-0 top-10 h-full w-[90%] ease-in-out duration-500" : "fixed left-[-100%]"}>
                 
                 <ul className=' mobileNavList pt-5 uppercase bg-white'>
                 <li className='p-4 border-b' onClick={handleNav}> <Link to='/'>Home</Link></li>
@@ -112,7 +112,7 @@ const handleNav = ()=>{
                   
          </div>
          <p onClick={handleNav} className='menu2  block md:hidden'>
-            {!nav ? <AiOutlineClose/>: < AiOutlineMenu /> }
+            {nav ? <AiOutlineClose/>: < AiOutlineMenu /> }
             </p>
         
     </div>
