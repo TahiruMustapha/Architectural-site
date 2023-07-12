@@ -101,7 +101,7 @@ const Navbar = () => {
                 > <Link to='/contactUs'>Contact Us</Link></li>
             </ul>
         </div>
-        <div className={!nav ? "mobileNav fixed left-0 top-8 h-full w-[90%] ease-in-out duration-500" : "fixed left-[-100%]"}>
+        <div className={nav ? "mobileNav fixed left-0 top-8 h-full w-[90%] ease-in-out duration-500" : "fixed left-[-100%]"}>
        
                  <ul className=' mobileNavList pt-5 uppercase bg-white'  >
                      <li className='p-4 border-b' onClick={handleNav} > <Link to='/' >Home</Link></li>
