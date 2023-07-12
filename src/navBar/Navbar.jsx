@@ -12,8 +12,8 @@ const Navbar = () => {
     }
     const [nav,setNav] = useState(false);
     const handleNav = ()=>{
-        setNav(!nav);
-    }
+        setNav(prev => !prev)
+      }
   return (
     <div className='app__navbar'>
         <div className="topNav">

@@ -61,7 +61,7 @@ const Home = () => {
                             <div className=" absolute top-[5rem] left-20 ">
                               <h3 className=' inline-block animate__animated animate__bounceInDown animate__delay-3s content__h3 pb-2 mb-6 mt-8 text-white font-extrabold  '>MASHA ALLAH</h3>
                                <h1 className='animate__animated animate__bounceInDown animate__delay-4s font-extrabold text-[#ffb600] text-4xl mb-6'>Bring Dream To Reality</h1>
-                            <button class="animate__animated animate__slideInDown animate__delay-5s mt-6 bg-[#ffb700ea] hover:bg-[#ffb600] text-white font-bold py-2 px-4 rounded">
+                            <button class="animate__animated animate__bounceInDown animate__delay-5s mt-8 bg-[#ffb700ea] hover:bg-[#ffb600] text-white font-bold py-2 px-4 rounded">
                                   Get Started</button>
                                </div>
                           </>
