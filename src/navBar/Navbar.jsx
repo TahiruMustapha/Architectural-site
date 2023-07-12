@@ -11,7 +11,7 @@ const Navbar = () => {
         setToggleState(index);
     }
     const [nav,setNav] = useState(false);
-    const handleNav = ()=>{
+    const handleNav = () => {
         setNav(prev => !prev)
       }
   return (
@@ -66,7 +66,11 @@ const Navbar = () => {
                 <h2>Masha Allah <br /> <span>Construction</span></h2>
             </div>
             <p onClick={handleNav} className='menu text-white block md:hidden'>
-            {!nav ? <AiOutlineClose/>: < AiOutlineMenu /> }
+            {
+
+            nav ? <AiOutlineClose/>: < AiOutlineMenu />
+            
+            }
            
             
             </p>
