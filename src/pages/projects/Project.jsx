@@ -17,7 +17,7 @@ const Project = () => {
   return (
     <div>
        <PagesNav/>
-       <div className="planBg projectsbg">
+       <div className="planBg  projectsbg">
         <div>
           <h1>
             <span>OUR</span> PROJECTS

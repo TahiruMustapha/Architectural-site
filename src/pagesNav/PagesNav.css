@@ -144,6 +144,8 @@
       .pagesNav{
         width: 100%;
         overflow-x: hidden;
+      
+        margin-bottom: 1.5rem;
       }
       .mobileNav{
         display: flex;
@@ -153,8 +155,9 @@
         width: 100%;
       }
       .pageNavLogo{
-        display: flex;
-        margin: 1rem 0 0 1rem;
+        display: block;
+        margin: 1rem 0 0 .5rem;
+       
       }
    
 }

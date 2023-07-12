@@ -38,7 +38,7 @@ const handleNav = () => {
                 <FaInstagram/>
             </div>
         </div>
-        <div className="set1 pageNavLogo text-sm mt-2 mb-3">
+        <div className="set1   pageNavLogo text-sm mt-2 ">
                 <Link to={'/'}>
                 <div>
                     <p><FaHome className=''/></p>
