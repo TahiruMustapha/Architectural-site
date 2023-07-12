@@ -28,10 +28,13 @@ const Navbar = () => {
         </div>
         <div className="nextNav">
             <div className="set1">
+                <Link to={'/'}>
                 <div>
                     <p><FaHome/></p>
                 </div>
                 <h2>Masha Allah <br /> <span>Construction</span></h2>
+                </Link>
+               
             </div>
             <div className="set2">
             <div>

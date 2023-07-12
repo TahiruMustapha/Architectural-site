@@ -3,6 +3,7 @@ import "./Footer.css";
 import {ImLocation2} from "react-icons/im"
 import {MdAccessTime, MdCall, MdMail} from "react-icons/md"
 import { FaBlenderPhone, FaFacebook, FaHome, FaInstagram, FaRegHandPointRight, FaTwitter } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <div className="mainFooter">
@@ -35,15 +36,15 @@ const Footer = () => {
           <h3 className="text-white">INFORMATION</h3>
             <div>
             <ul>
-            <li> <FaRegHandPointRight/>Home</li>
-                <li> <FaRegHandPointRight/>Company</li>
-                <li> <FaRegHandPointRight/>Contact Us</li>
-                <li> <FaRegHandPointRight/>Gallery</li>
+            <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/> <Link to={'/'}>Home</Link> </li>
+                <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/><Link to='/whoWeAre' >Company</Link></li>
+                <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/><Link to='/contactUs' >Contact Us</Link></li>
+                <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/><Link to='/gallery' >Gallery</Link></li>
              </ul>
              <ul>
-                <li> <FaRegHandPointRight/>Plans</li>
-                <li> <FaRegHandPointRight/>Projects</li>
-                <li> <FaRegHandPointRight/>Our Team</li>
+                <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/><Link to='/planForSale' >Plan For Sale</Link></li>
+                <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/><Link to='/projects' >Projects</Link></li>
+                <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/>Our Team</li>
              </ul> 
             </div>
              

@@ -224,6 +224,7 @@
         align-items: center;
         flex-wrap: nowrap;
         width: 100%;
+        
     }
     .quote__swipe{
         height: 150%;

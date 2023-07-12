@@ -23,12 +23,24 @@ const Project3 = () => {
         <h1>
           <span>OUR</span> PROJECTS
         </h1>
-        <div className='ongoining'>
-          <span >
-            You are here: <Link to="/">Home</Link>{" "}
-            <MdOutlineKeyboardDoubleArrowRight /><Link to="/projects">Projects</Link><MdOutlineKeyboardDoubleArrowRight /> Ongoing <MdOutlineKeyboardDoubleArrowRight /> Project 3
-          </span>
-        </div>
+        <div className='ongoining hidden  md:block'>
+            <span >
+              You are here: <Link to="/">Home</Link>{" "}
+              <MdOutlineKeyboardDoubleArrowRight /><Link to="/projects">Projects</Link><MdOutlineKeyboardDoubleArrowRight /> Ongoing <MdOutlineKeyboardDoubleArrowRight /> Project 1
+            </span>
+          </div>
+
+          <div className=' h-[4.5rem]    ongoining flex  flex-col  md:hidden'>
+            <p className=  'w-full  flex items-center justify-between h-full     ' >
+              You are here: <Link  to="/">Home</Link>{" "}
+              <MdOutlineKeyboardDoubleArrowRight /><Link to="/projects">Projects</Link>
+              </p>
+              <p className=' mb-2 flex items-center'>
+             <MdOutlineKeyboardDoubleArrowRight className='mr-2' /> Ongoing <MdOutlineKeyboardDoubleArrowRight className='ml-2 mr-2' /> Project 3
+
+              </p>
+          
+          </div>
       </div>
     </div> 
       <div className="projectsContent">

@@ -38,11 +38,14 @@ const handleNav = () => {
                 <FaInstagram/>
             </div>
         </div>
-        <div className="set1 pageNavLogo " >
+        <div className="set1 pageNavLogo text-sm mt-2 mb-3">
+                <Link to={'/'}>
                 <div>
-                    <p><FaHome/></p>
+                    <p><FaHome className=''/></p>
                 </div>
                 <h2>Masha Allah <br /> <span>Construction</span></h2>
+                </Link>
+               
             </div>
          <div className={nav ? "mobileNav fixed left-0 top-10 h-full w-[90%] ease-in-out duration-500" : "fixed left-[-100%]"}>
                 
@@ -85,10 +88,13 @@ const handleNav = () => {
             <div className='mainSet1'>
 
             <div className="set1">
+                <Link to={'/'}>
                 <div>
                     <p><FaHome/></p>
                 </div>
                 <h2>Masha Allah <br /> <span>Construction</span></h2>
+                </Link>
+               
             </div>
                 
             <div className="set4">
@@ -106,8 +112,8 @@ const handleNav = () => {
 
             </div>
 
-            <div className="contactList">
-                <p> <Link to='/contactUs'>CONTACT</Link></p>
+            <div className="contactList  h-[4rem] ">
+                <p className='mb-16  '> <Link to='/contactUs'>CONTACT</Link></p>
             </div>
                   
          </div>
