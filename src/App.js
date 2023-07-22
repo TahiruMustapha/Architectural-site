@@ -19,6 +19,7 @@ import Project8 from './pages/projects/project8/Project8';
 import Project9 from './pages/projects/project9/Project9';
 import ScrollToTop from './components/scrollToTo/SrollToTop';
 import Chat from './components/whatApp/Chat';
+import Team from './pages/team/Team';
 //import ScrollToTop from "react-scroll-to-top";
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
       <Route path='projects/projects9'  element ={ <Project9/>}/>
       <Route path='/gallery' exact element ={ <Gallery/>}/>
       <Route path='/contactUs' exact element ={ <Contact/>}/>
+      <Route path='/our-team' exact element ={ <Team/>}/>
      </Routes>
      <Chat/>
      <Footer/>

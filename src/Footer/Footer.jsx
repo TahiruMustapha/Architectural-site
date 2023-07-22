@@ -44,7 +44,7 @@ const Footer = () => {
              <ul>
                 <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/><Link to='/planForSale' >Plan For Sale</Link></li>
                 <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/><Link to='/projects' >Projects</Link></li>
-                <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/>Our Team</li>
+                <li className="ease-in-out duration-500 hover:text-[#ffb600] hover:translate-x-3"> <FaRegHandPointRight/><Link to='/our-team' >Our Team</Link></li>
              </ul> 
             </div>
              
