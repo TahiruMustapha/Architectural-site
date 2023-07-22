@@ -32,9 +32,9 @@ const Team = () => {
       </div>
       <div className="team__info mt-8 flex flex-col md:flex md:flex-row   items-center  md:w-[80%] mr-auto ml-auto ">
       <div className="info1 ">
-          <div className="team ">
-            <p className=''>COMPANY</p>
-            <p id="teamInfo ">OUR TEAM</p>
+      <div className="team">
+            <p>COMPANY</p>
+            <p id="teamInfo">OUR TEAM</p>
             <p id="teamInfo">CAREERS</p>
           </div>
           <div>
