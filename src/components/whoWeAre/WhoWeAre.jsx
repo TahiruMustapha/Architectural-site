@@ -1,6 +1,6 @@
 import React from "react";
 import "./WhoWeAre.css";
-import siteImg1 from "./imgs/siteImg1.jpeg";
+import pro12 from "./imgs/pro12.jpeg";
 import { Link } from "react-router-dom";
 //import siteImg2 from "./imgs/siteImg2.jpeg";
 const WhoWeAre = () => {
@@ -11,7 +11,7 @@ const WhoWeAre = () => {
       </h2>
 
       <div className="weAreInfo flex  justify-center w-[100%] ">
-        <img src={siteImg1} alt="img" className="weAreInfoImg  object-cover h-44 "/>
+        <img src={pro12} alt="img" className="weAreInfoImg  object-cover h-44 "/>
         <div className="weAreInfo_details1  w-[33%]">
           <h3 className="font-bold ">Masha Allah – A Tradition Of Excellence</h3>
           <p className=" p-text text-[gray]  " >
