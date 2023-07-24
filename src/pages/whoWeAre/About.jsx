@@ -248,7 +248,7 @@ const About = () => {
       </div>
       <div className="aimContact about__contact">
              <p>Want to hire a professional constructor for your project?</p>
-             <button>Contact Us <MdOutlineKeyboardDoubleArrowRight/> </button>
+             <button> <Link to={'/contactUs'}>Contact Us</Link>  <MdOutlineKeyboardDoubleArrowRight/> </button>
    </div>
     </div>
   );

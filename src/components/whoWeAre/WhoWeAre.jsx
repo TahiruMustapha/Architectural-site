@@ -1,6 +1,7 @@
 import React from "react";
 import "./WhoWeAre.css";
 import siteImg1 from "./imgs/siteImg1.jpeg";
+import { Link } from "react-router-dom";
 //import siteImg2 from "./imgs/siteImg2.jpeg";
 const WhoWeAre = () => {
   return (
@@ -31,7 +32,7 @@ const WhoWeAre = () => {
             <div>
             <h3 className="text-white font-bold">GET YOUR</h3>
             <span className="text-white font-extrabold tracking-widest">FREE CONSULTING</span>
-            <button className="text-[#ffb600] font-bold text-xs tracking-wider mt-3">CLICK HERE!</button>
+            <button className="text-[#ffb600] font-bold text-xs tracking-wider mt-3"> <Link to={'/contactUs'}>CLICK HERE!</Link> </button>
             </div>
             
           </div>
