@@ -57,7 +57,7 @@ const Home = () => {
                     <div className={index === currentSlide ? " animate__animated animate__rollIn animate__slower  absolute top-0 left-0 w-[100%] h-full  slide currrent" : "slide"} key = {index}>
                         {index === currentSlide && (
                           <>
-                            <img className='h-full  object-cover w-[100%]' src={slide.image} alt="slide" />
+                            <img className='h-full  object-cover w-[100%]' loading='eager' src={slide.image} alt="slide" />
                             <div className=" absolute top-[5rem] left-20 ">
                               <h3 className=' inline-block animate__animated animate__bounceInDown animate__delay-3s content__h3 pb-2 mb-6 mt-8 text-white font-extrabold  '>MASHA ALLAH</h3>
                                <h1 className='animate__animated animate__bounceInDown animate__delay-4s font-extrabold text-[#ffb600] text-4xl mb-6'>Bring Dream To Reality</h1>
