@@ -40,20 +40,20 @@ const Gallery = () => {
       </div>
     </div> 
       <SlideshowLightbox className=' lightBoxImg mt-8 mb-8 container grid grid-cols-3 gap-2 mx-auto'>
-        <img className='w-full  object-cover rounded' src={pro12} alt='img' />
-        <img className='w-full  object-cover rounded' src={pro7} alt='img' />       
-        <img className='w-full object-cover rounded' src={pro20} alt='img' />  
-       <img className='w-full  object-cover rounded' src={pro23} alt='img' /> 
-       <img className='w-full  object-cover rounded' src={img6} alt='img' /> 
-       <img className='w-full  object-cover rounded' src={img7} alt='img' /> 
-       <img className='w-full  object-cover rounded' src={img8} alt='img' /> 
-       <img className='w-full  object-cover rounded' src={img9} alt='img' />   
-       <img className='w-full  object-cover rounded' src={img13} alt='img' /> 
-       <img className='w-full  object-cover rounded' src={img14} alt='img' /> 
-       <img className='w-full  object-cover rounded' src={img15} alt='img' /> 
-       <img className='w-full  object-cover rounded' src={img21} alt='img' /> 
-       <img className='w-full  object-cover rounded' src={img22} alt='img' /> 
-       <img className='w-full  object-cover rounded' src={img23} alt='img' />  
+        <img loading='lazy' className='w-full object-cover rounded' src={pro12} alt='img' />
+        <img loading='lazy' className='w-full  object-cover rounded' src={pro7} alt='img' />       
+        <img loading='lazy' className='w-full object-cover rounded' src={pro20} alt='img' />  
+       <img loading='lazy' className='w-full  object-cover rounded' src={pro23} alt='img' /> 
+       <img loading='lazy' className='w-full  object-cover rounded' src={img6} alt='img' /> 
+       <img loading='lazy' className='w-full  object-cover rounded' src={img7} alt='img' /> 
+       <img loading='lazy' className='w-full  object-cover rounded' src={img8} alt='img' /> 
+       <img loading='lazy' className='w-full  object-cover rounded' src={img9} alt='img' />   
+       <img loading='lazy' className='w-full  object-cover rounded' src={img13} alt='img' /> 
+       <img loading='lazy' className='w-full  object-cover rounded' src={img14} alt='img' /> 
+       <img loading='lazy' className='w-full  object-cover rounded' src={img15} alt='img' /> 
+       <img loading='lazy' className='w-full  object-cover rounded' src={img21} alt='img' /> 
+       <img loading='lazy' className='w-full  object-cover rounded' src={img22} alt='img' /> 
+       <img loading='lazy' className='w-full  object-cover rounded' src={img23} alt='img' />  
 
       
        
