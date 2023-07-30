@@ -21,8 +21,8 @@ const Footer = () => {
             </h2>
           </div>
           <p>
-            Dunnock Associates is a privately owned company established by
-            young-energetic individuals who has great at what we do..
+            Masha Allah Construction is a privately owned company established by
+            young-energetic person who has great at what we do..
           </p>
           <div className="socialLinks">
             <FaFacebook/>
