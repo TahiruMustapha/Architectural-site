@@ -4,10 +4,10 @@ import 'animate.css'
 import './Plan.css'
 import { Link } from 'react-router-dom'
 import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md'
-import img12 from './images/img12.jpg'
-import img15 from './images/img15.jpg'
-import img18 from './images/img18.jpg'
-import img21 from './images/img21.jpg'
+import img12 from './images2/img12.webp'
+import img15 from './images2/img15.webp'
+import img18 from './images2/img18.webp'
+import img21 from './images2/img21.webp'
 import { PlanData } from './PlanData'
 //import { useState } from 'react'
 const Plan = () => {
@@ -95,10 +95,10 @@ const Plan = () => {
          <div className="contentGallery">
               
                  {
-                  PlanData.map((img,index)=>{
+                  PlanData.map((img)=>{
                      return(
                       <div className='imgGallery'>
-                        <img src={img.image} alt='img' />
+                        <img src={img.image} alt='img' loading='lazy' />
                         <p>{img.info}</p>
                         <span className='prevPrice'>{img.prevPrice}</span>
                         <span className='price'>{img.price}</span> <br />

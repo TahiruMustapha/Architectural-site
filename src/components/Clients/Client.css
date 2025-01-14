@@ -1,5 +1,5 @@
 .client{
-    height: 65vh;
+    height: fit-content;
     padding-bottom: 2rem;
 }
 .clientInfo{
@@ -7,9 +7,11 @@
     margin: 0 auto;
     height: 100%;
 
+
 }
 .clientInfo h2{
-    width: 12.7%;
+  
+    width: fit-content;
     border-bottom: 4px solid #ffb600; 
     margin-left: 3.5rem; 
     margin-top: 2rem; 

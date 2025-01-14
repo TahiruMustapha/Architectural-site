@@ -13,9 +13,9 @@ import {
   FaFileWord,
   FaQuoteLeft,
 } from "react-icons/fa";
-import img7 from "./images/img7.jpg";
-import img8 from "./images/img8.jpg";
-import img3 from "./images/img3.jpg";
+import img7 from "./images2/img7.webp";
+import img8 from "./images2/img8.webp";
+import img3 from "./images2/img3.webp";
 import { AboutData } from "./AboutData";
 import { useState, useEffect } from "react";
 const About = () => {

@@ -1,7 +1,7 @@
 
 .planBg{
     width: 100%;
-    background:linear-gradient(rgba(128, 128, 128, 0.623),rgba(128, 128, 128, 0.623)), url('./images/img21.jpg');
+    background:linear-gradient(rgba(128, 128, 128, 0.623),rgba(128, 128, 128, 0.623)), url('./images2/img21.webp');
     background-position: center;
     background-size: cover;
     object-fit: cover;

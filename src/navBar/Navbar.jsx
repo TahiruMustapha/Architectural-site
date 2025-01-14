@@ -6,7 +6,7 @@ import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 import {Link} from 'react-router-dom'
 const Navbar = () => {
     const [overlay, setOverlay] = useState(false);
-    const [toggleState,setToggleState] = useState(1);
+    const [toggleState,setToggleState] = useState(0);
     const toggleTab = (index)=>{
         setToggleState(index);
     }
@@ -81,25 +81,25 @@ const Navbar = () => {
         </div>
         <div className="navItems hidden md:block">
             <ul>
-                <li  className={toggleState === 1 ? "tabs active-tab" : "tabs"}
+                <li  className={toggleState === 1 ? "tabs " : "tabs"}
                 onClick={()=>toggleTab(1)}
                 > <Link to='/' >Home</Link></li>
-                <li className={toggleState === 2 ? "tabs active-tab" : "tabs"}
+                <li className={toggleState === 2 ? "tabs " : "tabs"}
                 onClick={()=>toggleTab(2)}
                 > <Link to='/planForSale'> Plan For Sale</Link></li>
-                <li className={toggleState === 3 ? "tabs active-tab" : "tabs"}
+                <li className={toggleState === 3 ? "tabs " : "tabs"}
                 onClick={()=>toggleTab(3)}
                 > <Link to='/whatWeDo'>What We Do</Link></li>
-                <li className={toggleState === 4 ? "tabs active-tab" : "tabs"}
+                <li className={toggleState === 4 ? "tabs " : "tabs"}
                 onClick={()=>toggleTab(4)}
                 > <Link to='/whoWeAre'>Who We Are</Link> </li>
-                <li className={toggleState === 5 ? "tabs active-tab" : "tabs"}
+                <li className={toggleState === 5 ? "tabs " : "tabs"}
                 onClick={()=>toggleTab(5)}
                 > <Link to='/projects'>Projects</Link></li>
-                <li className={toggleState === 6 ? "tabs active-tab" : "tabs"}
+                <li className={toggleState === 6 ? "tabs " : "tabs"}
                 onClick={()=>toggleTab(6)}
                 > <Link to='/gallery'>Gallery</Link></li>
-                <li className={toggleState === 7 ? "tabs active-tab" : "tabs"}
+                <li className={toggleState === 7 ? "tabs " : "tabs"}
                 onClick={()=>toggleTab(7)}
                 > <Link to='/contactUs'>Contact Us</Link></li>
             </ul>

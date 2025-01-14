@@ -1,6 +1,7 @@
 import React from "react";
 import "./WhoWeAre.css";
-import pro12 from "./imgs/pro12.jpeg";
+import pro12 from "./imgPro/pro12.webp";
+
 import { Link } from "react-router-dom";
 //import siteImg2 from "./imgs/siteImg2.jpeg";
 const WhoWeAre = () => {
@@ -20,7 +21,7 @@ const WhoWeAre = () => {
             over two (2) years of collective experience offering the highest
             standards for safety, quality and integrity.
           </p>
-          <p className=" p-text2 text-[gray] ">
+          <p className=" p-text2 text-[gray]  ">
             Dedicated to Excellence, we utilize innovative building
             construction, maintenance, and renovation skills to change and
             improve the way Projects are designed, managed, and built.

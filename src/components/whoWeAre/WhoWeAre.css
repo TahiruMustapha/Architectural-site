@@ -2,7 +2,7 @@
     height: 90vh;
 }
 .whoWeAre h2{
-    width: 11%;
+    width: fit-content;
     margin: 0 auto;
     padding-top: 1rem;
     border-bottom: 4px solid #ffb600;   
@@ -19,7 +19,7 @@
     /* color: white; */
 }
 .weAreInfo_details21 div{
-    background:linear-gradient(#394a5cbe,#394a5cbe), url('./imgs/pro16.jpeg');
+    background:linear-gradient(#394a5cbe,#394a5cbe), url('./imgPro/pro16.webp');
     width: 75%;
     height: 100%;
     background-position: center;
@@ -31,7 +31,7 @@
     
 }
 .weAreInfo {
-    margin-top: 8rem;
+    margin-top: 4rem;
     height: 70%;
     height: 15rem;
     
@@ -120,7 +120,8 @@
 }
 @media (max-width:700px){
     .whoWeAre{
-        height: 105vh;
+        /* height: 100vh;  */
+
         /* background: red; */
         margin-top: 2px;
         margin-bottom: 2px;
@@ -129,6 +130,7 @@
     .weAreInfoImg{
         width: 80%;
        margin-left: 2.4rem;
+       margin-top: 1rem;
        
     }
     .p-text{
@@ -157,6 +159,7 @@
         flex-direction: column;
         height: fit-content;
         margin-top: 10px;
+        
     }
     .weAreInfo_details1 h3{
         width: 200%;

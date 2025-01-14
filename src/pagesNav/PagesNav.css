@@ -64,6 +64,22 @@
     
 }
 
+.nav-link {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #fbb600; /* Global orange color */
+  }
+  
+  .nav-link.active {
+    color: #fbb600; /* Active link color */
+    font-weight: bold;
+    border-bottom: 2px solid #fbb600; /* Optional underline */
+  }
 .mainSet1{
     display: flex;
     align-items: center;
@@ -95,10 +111,10 @@
 .contactList p{
     transition: 2s all;
 }
-.contactList p:hover{
+/* .contactList p:hover{
     border-bottom: 4px solid #fbb600;
     color: #fbb600;
-}
+} */
 #search{
     position: absolute;
     top: 30px;
